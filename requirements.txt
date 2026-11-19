@@ -1,9 +1,15 @@
-pandas
+# Dependencies used by the project's Jupyter notebooks
 numpy
+pandas
 pyarrow
 matplotlib
 seaborn
 scikit-learn
+statsmodels
 transformers
 sentencepiece
-jupyter
+protobuf
+
+# Notebook execution (optional if Jupyter is already installed)
+notebook
+ipykernel
