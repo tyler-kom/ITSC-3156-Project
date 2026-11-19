@@ -1,7 +1,10 @@
 # Dataset files
-data/
-*.parquet
-*.csv
+data/raw/*
+data/processed/*
+
+# Allow placeholder files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # Python
 __pycache__/
